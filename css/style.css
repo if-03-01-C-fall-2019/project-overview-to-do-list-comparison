@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap');
 #wrapper{
   width: 960px;
   margin-right: auto;
@@ -9,6 +9,7 @@
 header {
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
+  font-weight: 800;
   padding-top: 15px;
   padding-bottom: 30px;
 }
@@ -33,4 +34,19 @@ h1 {
 
 .article a {
 	font-size: 20px;
+}
+
+
+.fontbackground{
+  padding: 10px;
+  background: url("https://s3.gifyu.com/images/tfud5n7-6j6txcq8mp4_SDCY-_1_.gif");
+  background-size: cover;
+  background-position: center;
+  -webkit-background-clip: text;
+  color: #00000047;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
