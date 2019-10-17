@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
-#wrapper{
-  width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-  color: black;
-
-}
-
 body{
   padding:auto;
   margin:auto;
@@ -18,28 +10,21 @@ header{
   padding-bottom: 5px;
   min-height:70px;
 }
-
 article {
   font-family: 'Open Sans', sans-serif;
   width : 960px;
   height: 550px;
   float: left;
   font-weight: 100;
-
 }
 h1 {
-
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 48px;
-
 }
-
 h2 {
-
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-
 }
 .article{
   height: 120px;
