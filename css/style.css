@@ -3,15 +3,20 @@
   width: 960px;
   margin-right: auto;
   margin-left: auto;
+  color: black;
 
 }
 
-header {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 48px;
-  font-weight: 800;
-  padding-top: 15px;
-  padding-bottom: 30px;
+body{
+  padding:auto;
+  margin:auto;
+  background-color:#f4f4f4;
+}
+header{
+  background:#bbbbbb;
+  padding-top:5px;
+  padding-bottom: 5px;
+  min-height:70px;
 }
 
 article {
@@ -19,11 +24,21 @@ article {
   width : 960px;
   height: 550px;
   float: left;
+  font-weight: 100;
 
 }
 h1 {
 
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+
+}
+
+h2 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 
 }
 .article{
