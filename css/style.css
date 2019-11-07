@@ -1,15 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #494949;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #373737;
+}
 body{
   padding:auto;
   margin:auto;
-  background-color:#f4f4f4;
+  background-color:#efefef;
 }
 header{
   padding: 20px;
-  width: 960px;
+
   margin-left: auto;
   margin-right: auto;
-  background:#bbbbbb;
+  background:#757575;
   padding-top:5px;
   padding-bottom: 5px;
   min-height:70px;
@@ -25,6 +51,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 48px;
+    color: white;
 }
 h2 {
     font-family: 'Open Sans', sans-serif;
