@@ -46,7 +46,7 @@ header{
 }
 article {
   font-family: 'Open Sans', sans-serif;
-  width : 960px;
+  width : 800px;
   height: 550px;
   float: left;
   font-weight: 100;
@@ -60,11 +60,6 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
-}
-.article{
-  height: 120px;
-  margin-top: 5px;
-  margin-bottom: 0px;
 }
 
 button {
