@@ -21,14 +21,18 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #373737;
 }
 body{
-  padding:auto;
   margin:auto;
   background-color:#efefef;
+}
+#website {
+    width:900px;
+    position:absolute;
+    left:50%;
+    margin-left:-450px;
 }
 header{
   padding: 20px;
@@ -61,4 +65,18 @@ h2 {
   height: 120px;
   margin-top: 5px;
   margin-bottom: 0px;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+	background-color:#757575;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:8px 12px;
+	text-decoration:none;
+}
+button:hover {
+	background-color:#494949;
 }
