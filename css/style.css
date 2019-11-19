@@ -60,6 +60,12 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+    font-size: 28px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 80;
+    font-size: 21px;
 }
 
 button {
